@@ -1,0 +1,33 @@
+{
+  "name": "@neo4j-documentation/antora-knowledge-base-extension",
+  "version": "0.1.0",
+  "description": "An Antora extension that generates category and tag pages from Knowledge Base articles",
+  "main": "lin/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha spec/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo4j-documentation/antora-knowledge-base-extension.git"
+  },
+  "keywords": [
+    "antora",
+    "extension"
+  ],
+  "author": "Guillaume Grossetie <ggrossetie@yuzutech.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo4j-documentation/antora-knowledge-base-extension/issues"
+  },
+  "homepage": "https://github.com/neo4j-documentation/antora-knowledge-base-extension#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
