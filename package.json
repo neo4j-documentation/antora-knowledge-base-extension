@@ -2,7 +2,7 @@
   "name": "@neo4j-documentation/antora-knowledge-base-extension",
   "version": "0.1.0",
   "description": "An Antora extension that generates category and tag pages from Knowledge Base articles",
-  "main": "lin/index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
