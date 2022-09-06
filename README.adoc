@@ -6,7 +6,7 @@ This extension generates category and tag pages from https://github.com/neo4j-do
 
 Begin by installing the extension package into your playbook project:
 
-$ npm i @neo4j-documentation/antora-knowledge-base-extension
+ $ npm i @neo4j-documentation/antora-knowledge-base-extension
 
 We strongly recommend installing dependencies into your playbook project.
 This strategy makes it easier to manage the dependencies, clearly documents those dependencies, and ensures the build is portable and isolated from other sites.
